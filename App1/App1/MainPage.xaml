@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Label HorizontalTextAlignment="Center" Text="Alcool ou Gasolina" FontSize="25" Margin="5"/>
+        <Entry x:Name="txtGasolina" Placeholder="Digite o valor da gasolina" Keyboard="Numeric"/>
+        <Entry x:Name="txtAlcool" Placeholder="Digite o valor do alcool" Keyboard="Numeric"/>
+        <Button Text="Calcular" Clicked="Button_Clicked" />
+        <Label x:Name="lblMessage" HorizontalTextAlignment="Center" FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
